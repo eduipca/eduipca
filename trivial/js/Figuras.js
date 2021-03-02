@@ -129,6 +129,7 @@ const evaluateAnswer = (answer, obj) => {
         } else {
             audio_section.pause();
             document.querySelector('.container').style.display = 'none';
+            document.querySelector('.jumbotron').style.display = 'block';
             document.querySelector('#parrafoIntentos').innerHTML = rigthAnswers + wrongAnswers;
             document.querySelector('#parrafoCorrectas').innerHTML = rigthAnswers;
             document.querySelector('#parrafoIncorrectas').innerHTML = wrongAnswers;

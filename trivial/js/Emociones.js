@@ -64,7 +64,7 @@ const cuestionary = [
         "image_answer": ["../../img/imgemociones/tristeza_intensamente.png", "../../img/imgemociones/desagrado_intensamente.png"]
     },
     {
-        "audio_question": "../../audio/Cual_de_los_siguientes_animales_hace_el_siguiente_sonido.mp3",
+        "audio_question": "../../audio/audio_emociones/feliz_intensamente.mp3",
         "image_answer": ["../../img/imgemociones/alegria_intensamente.png", "../../img/imgemociones/enojo_intensamente.png"]
     }
 ];
