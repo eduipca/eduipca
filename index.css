@@ -1,0 +1,21 @@
+.container{
+    padding-bottom: 40px;
+}
+
+body, html{
+    height: 100%;
+    background-image: url('./img/fondo.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.imglogo{
+    width: 140px;
+    height: 80px;
+}
+
+.w3-border-grey{
+    margin:auto;
+    width:40%;
+}

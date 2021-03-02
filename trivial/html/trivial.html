@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>Los Animales</title>
+    <link rel="shortcut icon" href="../../img/imgindex/logo_size.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <!--LINK DE CSS DE ESTE ARCHIVP-->
+    <link rel="stylesheet" href="../css/trivial.css">
+</head>
+<body onmousedown="detectarBoton(event);">
+
+    <div class="jumbotron bg-info">
+        <h1 id="h1animales" class="display-4"></h1>     
+    </div>
+
+    <div class="botonIniciar">
+        <button id="btnIniciar" class="btn btn-primary" onClick="iniciarTest()">Comenzar a aprender</button>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <img id="imgQuestion" src="" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div id="grid1" class="col-sm-12">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Respuestas Correctas: <span class="rigthCounter">0</span></p>
+                <p>Respuestas Incorrectas: <span class="wrongCounter">0</span></p>
+            </div>
+        </div>
+        <button id="btnNext" class="btn btn-primary btn-block" onclick="printHTMLQuestion(currentQuestionIndex)">Siguiente</button>
+    </div>
+    <!--DIV PARA MOSTRAR LOS RESULTADOS FINALES-->
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+        <h2>RESULTADOS</h2>    
+        <h3>Intentos: <p id="parrafoIntentos"></p></h3>
+        <h3>Correctas: <p id="parrafoCorrectas"></p></h3>
+        <h3>Incorrectas: <p id="parrafoIncorrectas"></p></h3>
+        <a href="./trivial.html" class="btn btn-info">INTENTAR NUEVAMENTE</a>
+        <a href="../../sections.html" class="btn btn-info">MENÚ PRINCIPAL</a>
+    </div>
+    
+    <script src="../js/trivial.js"></script>
+</body>
+</html>

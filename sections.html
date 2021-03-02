@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="./sections.css">
+    <link rel="shortcut icon" href="./img/imgindex/logo_size_invert.jpg">
+    <title>Secciones</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron bg-info">
+            <h1 id="h1Sections" class="display-3"></h1>
+        </div>
+
+        <!--DIV PARA MOSTRAR LAS SECCIONES-->
+        <div id="rowSections" class="row">
+
+        </div>
+    </div>
+
+    <!--DIV PARA EL CUADRO DE AYUDA-->
+    <div id="alertAyuda" class="alert alert-info alert-dismissible" role="alert">
+        <h1 style="text-align: center;">Ayuda</h1>
+        <div class="row">
+            <div class="col-sm-8">
+                <h4>1. Para empezar el juego, escoge una categoria haciendo click encima de ella</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="./img/imgayuda/categorias.png" alt="Imagen">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h4>2. Una vez escogida la categoria, clickeamos en el botón "Comenzar a aprender"</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="./img/imgayuda/paso2.png" alt="Imagen">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h4>3. Ahora puedes empezar a jugar utilizando el dispositivo externo,
+                    cada botón hace referencia a cada imagen de las respuestas.
+                </h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="./img/imgayuda/paso3.png" alt="Imagen">
+            </div>
+        </div>
+    </div>
+    <!--FIN DIV-->
+
+    <!-- Footer -->
+    <footer id="footer" class="page-footer font-small">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">EDUIPCA</div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!--BUTTON PARA ABRIR EL CUADRO DE AYUDA-->
+    <a id="btnHelp" class="flotante" href="#" onclick="abrirAyuda()"><img src='./img/imgsections/icon-help.png' /></a>
+    <script src="sections.js"></script>
+</body>
+
+</html>
