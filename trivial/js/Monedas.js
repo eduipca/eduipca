@@ -47,7 +47,7 @@ const cuestionary = [
         "image_answer": ["../../img/imgmonedas/25centavos.png", "../../img/imgmonedas/5centavos.png"] //YA
     },
     {
-        "audio_question": "../../audio/audio_monedas/dolar_monedas.mp3",
+        "audio_question": "../../audio/audio_monedas/dolar_moneda.mp3",
         "image_answer": ["../../img/imgmonedas/dolar.png", "../../img/imgmonedas/centavo.png"] // YA
     },
     {
