@@ -70,19 +70,19 @@ const cuestionary = [
         "image_answer": ["../../img/imgnumeros/2.png", "../../img/imgnumeros/5.png"]
     },
     {
-        "audio_question": "../../audio/audio_numeros/#",
+        "audio_question": "../../audio/audio_numeros/suma.mp3",
         "image_question": ["../../img/imgnumeros/suma.png", "../../img/imgnumeros/resta.png"]
     },
     {
-        "audio_question": "../../audio/audio_numeros/#",
+        "audio_question": "../../audio/audio_numeros/resta.mp3",
         "image_question": ["../../img/imgnumeros/resta.png", "../../img/imgnumeros/multipliacion.png"]
     },
     {
-        "audio_question": "../../audio/audio_numeros/#",
+        "audio_question": "../../audio/audio_numeros/multiplicar.mp3",
         "image_question": ["../../img/imgnumeros/multiplicacion.png", "../../img/imgnumeros/suma.png"]
     },
     {
-        "audio_question": "../../audio/audio_numeros/#",
+        "audio_question": "../../audio/audio_numeros/dividir.mp3",
         "image_question": ["../../img/imgnumeros/division.png", "../../img/imgnumeros/resta.png"]
     }
 ];
